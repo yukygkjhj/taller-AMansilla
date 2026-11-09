@@ -11,3 +11,12 @@ python main.py
 ```
 
 la base reservas.db se crea automaticamente junto a los modulos
+
+## Prueba manual
+
+1. Registra Sala A con 6 cupos y Sala B con 4.
+2. Reserva Sala A para Ana con una fecha en formato `AAAA-MM-DD`.
+3. Intenta reservar Sala A para Pedro; debe rechazarse mientras esté ocupada.
+4. Consulta reservas y apunta el ID de la reserva de Ana.
+5. Cancela esa reserva; Sala A debe quedar disponible.
+6. Reserva Sala A para Pedro; ahora debe aceptarse.
